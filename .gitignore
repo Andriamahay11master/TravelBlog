@@ -1,0 +1,35 @@
+# Ignore WordPress core directories  
+wp-admin/  
+wp-includes/  
+
+# Ignore sensitive files  
+wp-config.php  
+
+# Ignore media uploads, cache, and backups  
+wp-content/uploads/  
+wp-content/cache/  
+wp-content/backup/  
+
+# Ignore all plugins & themes except custom ones (modify as needed)  
+wp-content/plugins/*  
+!wp-content/plugins/my-custom-plugin/  
+wp-content/themes/*  
+!wp-content/themes/my-custom-theme/  
+
+# Ignore system & editor-specific files  
+.DS_Store  
+Thumbs.db  
+ehthumbs.db  
+.vscode/  
+.idea/  
+*.sublime-project  
+*.sublime-workspace  
+
+# Ignore dependencies (if using Composer or Node.js)  
+vendor/  
+node_modules/  
+
+# Ignore logs and debug files  
+debug.log  
+error_log  
+logs/  
